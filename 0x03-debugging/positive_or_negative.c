@@ -1,18 +1,21 @@
 #include "main.h"
 /**
- * main - test function for positive or negetive
- * positive_or_negative - checks for positive or negetive
+ * positive_or_negetive - this checks for positive or negetive numbers
  *
- * @i: the number to be checked
+ * @i: the number to be used
  *
- * Return: always 0,
+ * Return: Always 0;
  */
-
-void positive_or_negative(int i)
+void positive_or_negetive(int i)
 {
-
 if (i < 0)
-printf("%d is negetive", i);
+{
+pfintf("%d is negetive", i);
+
 else
-printf("%d is positive", i);
+	printf("%d is positive", i);
+
+}
+
+
 }

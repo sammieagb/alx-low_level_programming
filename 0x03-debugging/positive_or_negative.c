@@ -9,13 +9,11 @@
 void positive_or_negetive(int i)
 {
 if (i < 0)
-{
-pfintf("%d is negetive", i);
+
+printf("%d is negetive", i);
 
 else
 	printf("%d is positive", i);
-
-}
 
 
 }

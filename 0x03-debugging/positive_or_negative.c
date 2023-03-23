@@ -1,5 +1,6 @@
 #include "main.h"
-/*
+/**
+ * main - test function for positive or negetive
  * positive_or_negative - checks for positive or negetive
  *
  * @i: the number to be checked
